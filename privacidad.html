@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>V-Pet Life Privacy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;700&display=swap">
+<style>
+/* Layout: one narrow reading column, Spanish first, English below, a pixel-font masthead. */
+:root{
+  --bg:#f6f7f2; --fg:#1e2320; --muted:#5b645e; --line:#d9ddd3; --accent:#2f7d4f; --chip:#e7efe6;
+  --display:"Press Start 2P",ui-monospace,monospace; --body:"Nunito",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141815; --fg:#e6ebe6; --muted:#9aa59d; --line:#2c332e; --accent:#6fcf93; --chip:#1f2a22; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141815; --fg:#e6ebe6; --muted:#9aa59d; --line:#2c332e; --accent:#6fcf93; --chip:#1f2a22; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:66ch;margin:0 auto;display:flex;flex-direction:column;gap:48px}
+header{display:flex;flex-direction:column;gap:12px}
+h1{font-family:var(--display);font-size:20px;line-height:1.5;color:var(--accent);margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px;margin:0}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{font-size:14px;font-weight:700;color:var(--fg);background:var(--chip);padding:6px 12px;border-radius:999px;text-decoration:none}
+nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{display:flex;flex-direction:column;gap:20px;border-top:1px solid var(--line);padding-top:32px}
+h2{font-family:var(--display);font-size:13px;letter-spacing:.04em;margin:0;line-height:1.6}
+h3{font-size:17px;margin:0}
+.item{display:flex;flex-direction:column;gap:6px}
+.item p,.lead{margin:0}
+.lead{font-size:18px;font-weight:700}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px}
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <h1>V-Pet Life</h1>
+    <p class="meta">Política de privacidad · Privacy policy · 2 noviembre 2026 / November 2, 2026</p>
+    <nav><a href="#es">Español</a><a href="#en">English</a></nav>
+  </header>
+
+  <section id="es" lang="es">
+    <h2>ESPAÑOL</h2>
+    <p class="lead">V-Pet Life no recoge tus datos. No hay cuentas, anuncios, analíticas ni rastreo, y nada se envía a servidores del desarrollador.</p>
+    <div class="item"><h3>Salud y actividad</h3>
+      <p>Con tu permiso, el juego lee en Apple Salud tus pasos, tus anillos de Actividad y tus entrenos para darte objetos dorados y pociones. Solo lee: nunca escribe nada en Salud. Estos datos se usan en tu dispositivo y no se guardan fuera de él ni se comparten con nadie.</p></div>
+    <div class="item"><h3>Tu partida</h3>
+      <p>La mascota, el historial, los logros, los nombres y los dibujos personalizados se guardan en tu Apple Watch y tu iPhone. Solo se sincronizan entre tus dos dispositivos emparejados. Si borras la app, esos datos se pierden.</p></div>
+    <div class="item"><h3>Combates con amigos</h3>
+      <p>Para pelear con un amigo cerca, el iPhone usa la red local para encontrar su iPhone. Para el combate solo se envía la especie de la mascota y sus estadísticas de combate (fuerza, esfuerzo, peso y si está herida).</p></div>
+    <div class="item"><h3>Combates online (Game Center)</h3>
+      <p>Si juegas online, Apple Game Center te identifica con tu alias. Tu rival ve ese alias y los mismos datos de combate de tu mascota. Game Center se rige por la política de privacidad de Apple.</p></div>
+    <div class="item"><h3>Chat de voz</h3>
+      <p>En las incursiones online con amigos invitados, el micrófono (solo si le das permiso) envía tu voz en directo a sus iPhone a través de Game Center. No se graba ni se guarda en ningún sitio y no pasa por servidores del desarrollador. Puedes silenciar tu micrófono o a cualquier amigo. Con un equipo al azar no hay chat de voz, y se respetan las restricciones de Tiempo de uso.</p></div>
+    <div class="item"><h3>Compras</h3>
+      <p>La versión completa se compra con el sistema de compras de Apple. Apple gestiona el pago; nosotros no recibimos tus datos de pago ni tu identidad.</p></div>
+    <div class="item"><h3>Notificaciones</h3>
+      <p>Los avisos (hambre, pasos, evoluciones) se crean en tu propio reloj. No usamos notificaciones enviadas desde internet.</p></div>
+    <div class="item"><h3>Niños</h3>
+      <p>Como no recogemos datos personales, tampoco recogemos datos de menores.</p></div>
+    <div class="item"><h3>Cambios y contacto</h3>
+      <p>Si esta política cambia, se actualizará en esta página con una nueva fecha. Para cualquier duda, contacta con el desarrollador, Ricardo Urbano, desde la página de la app en el App Store.</p></div>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>ENGLISH</h2>
+    <p class="lead">V-Pet Life does not collect your data. There are no accounts, ads, analytics or tracking, and nothing is sent to the developer's servers.</p>
+    <div class="item"><h3>Health and activity</h3>
+      <p>With your permission, the game reads your steps, Activity rings and workouts from Apple Health to give you golden items and potions. It only reads: it never writes anything to Health. This data is used on your device and is not stored elsewhere or shared with anyone.</p></div>
+    <div class="item"><h3>Your game</h3>
+      <p>Your pet, history, achievements, names and custom drawings are stored on your Apple Watch and iPhone. They only sync between your two paired devices. If you delete the app, that data is lost.</p></div>
+    <div class="item"><h3>Battles with friends</h3>
+      <p>To battle a friend nearby, your iPhone uses the local network to find theirs. Only your pet's species and battle stats (strength, effort, weight and whether it is hurt) are sent for the battle.</p></div>
+    <div class="item"><h3>Online battles (Game Center)</h3>
+      <p>If you play online, Apple Game Center identifies you by your nickname. Your opponent sees that nickname and the same battle stats of your pet. Game Center is covered by Apple's privacy policy.</p></div>
+    <div class="item"><h3>Voice chat</h3>
+      <p>In online raids with invited friends, the microphone (only if you allow it) sends your voice live to their iPhones through Game Center. It isn't recorded or stored anywhere and doesn't go through the developer's servers. You can mute your microphone or any friend. There's no voice chat with a random team, and Screen Time restrictions are respected.</p></div>
+    <div class="item"><h3>Purchases</h3>
+      <p>The full version is bought through Apple's in-app purchase system. Apple handles the payment; we don't receive your payment details or your identity.</p></div>
+    <div class="item"><h3>Notifications</h3>
+      <p>Reminders (hunger, steps, evolutions) are created on your own watch. We don't use notifications sent over the internet.</p></div>
+    <div class="item"><h3>Children</h3>
+      <p>Because we collect no personal data, we collect no data from children.</p></div>
+    <div class="item"><h3>Changes and contact</h3>
+      <p>If this policy changes, this page will be updated with a new date. For any question, contact the developer, Ricardo Urbano, through the app's App Store page.</p></div>
+  </section>
+</main>
+</body>
+</html>
